@@ -41,6 +41,7 @@ async def book_flight(origin: str, destination: str, departure_date: str,
     """
     Visit Kayak and search for flights based on user input
     
+    
     Args:
         origin: Origin airport code (e.g., "SFO")
         destination: Destination airport code (e.g., "JFK")
