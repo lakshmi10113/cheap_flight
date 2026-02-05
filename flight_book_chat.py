@@ -19,6 +19,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY not found in environment variables. Please add it to your .env file.")
 
+
 # Initialize the Gemini LLM
 llm = ChatGoogleGenerativeAI(
     model='gemini-2.0-flash-exp',
